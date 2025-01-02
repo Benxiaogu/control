@@ -1,4 +1,4 @@
-`mpc_r0.py`是基于DR_CAN在bilibili提供的[Octave代码](https://www.bilibili.com/opus/666629407425691664)//www.bilibili.com/opus/666629407425691664使用python语言复现的，其中的实现原理也是按照DR_CAN在[视频](https://www.bilibili.com/video/BV1cL411n7KV?spm_id_from=333.788.videopod.sections&vd_source=9e51c239510424a92903fe86ed4d9e71)中在假设系统参考r=0的情况下进行推导得到的目标函数，如式(1)所示
+`mpc_r0.py`是基于DR_CAN在bilibili提供的[Octave代码](https://www.bilibili.com/opus/666629407425691664)使用python语言复现的，其中的实现原理也是按照DR_CAN在[视频](https://www.bilibili.com/video/BV1cL411n7KV?spm_id_from=333.788.videopod.sections&vd_source=9e51c239510424a92903fe86ed4d9e71)中在假设系统参考r=0的情况下进行推导得到的目标函数，如式(1)所示
 $$
 J=x_k^TM^T\bar{Q}Mx_k+2x_k^TM^T\bar{Q}CU_k+U_k^T(C^T\bar{Q}C+\bar{R})U_k \tag{1}
 $$
